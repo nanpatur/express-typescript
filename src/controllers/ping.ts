@@ -9,7 +9,7 @@ export default class PingController {
 	@Get('/')
 	public async getMessage(): Promise<PingResponse> {
 		return {
-			message: 'pong',
+			message: 'pong hai',
 		}
 	}
 }
